@@ -1,0 +1,1 @@
+Invoking command in '/home/eeee784/vince_ros2_ws/src/build/ur5e_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eeee784/vince_ros2_ws/install/grasp_detection:/opt/ros/humble /usr/bin/cmake /home/eeee784/vince_ros2_ws/src/ur5e_sim -DCMAKE_INSTALL_PREFIX=/home/eeee784/vince_ros2_ws/src/install/ur5e_sim

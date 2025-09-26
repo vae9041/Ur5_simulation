@@ -1,0 +1,2 @@
+Invoking command in '/home/eeee784/vince_ros2_ws/src/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eeee784/vince_ros2_ws/install/grasp_detection:/opt/ros/humble /usr/bin/cmake --build /home/eeee784/vince_ros2_ws/src/build/ur_description -- -j8 -l8
+Invoked command in '/home/eeee784/vince_ros2_ws/src/build/ur_description' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eeee784/vince_ros2_ws/install/grasp_detection:/opt/ros/humble /usr/bin/cmake --build /home/eeee784/vince_ros2_ws/src/build/ur_description -- -j8 -l8

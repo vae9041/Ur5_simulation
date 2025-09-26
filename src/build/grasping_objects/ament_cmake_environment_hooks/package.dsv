@@ -1,0 +1,4 @@
+source;share/grasping_objects/local_setup.bash
+source;share/grasping_objects/local_setup.dsv
+source;share/grasping_objects/local_setup.sh
+source;share/grasping_objects/local_setup.zsh

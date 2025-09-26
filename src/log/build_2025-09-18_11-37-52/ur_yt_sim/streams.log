@@ -1,0 +1,41 @@
+[0.277s] Invoking command in '/home/eeee784/vince_ros2_ws/src/build/ur_yt_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eeee784/vince_ros2_ws/install/grasp_detection:/opt/ros/humble /usr/bin/cmake /home/eeee784/vince_ros2_ws/src/ur_yt_sim -DCMAKE_INSTALL_PREFIX=/home/eeee784/vince_ros2_ws/src/install/ur_yt_sim
+[0.336s] -- The C compiler identification is GNU 11.4.0
+[0.386s] -- The CXX compiler identification is GNU 11.4.0
+[0.395s] -- Detecting C compiler ABI info
+[0.473s] -- Detecting C compiler ABI info - done
+[0.484s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.484s] -- Detecting C compile features
+[0.485s] -- Detecting C compile features - done
+[0.487s] -- Detecting CXX compiler ABI info
+[0.561s] -- Detecting CXX compiler ABI info - done
+[0.567s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.567s] -- Detecting CXX compile features
+[0.570s] -- Detecting CXX compile features - done
+[0.572s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.722s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.840s] -- Found xacro: 2.0.13 (/opt/ros/humble/share/xacro/cmake)
+[0.843s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.887s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.893s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.904s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.916s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.935s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.993s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.999s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.091s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.124s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.161s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.171s] -- Looking for pthread.h
+[1.234s] -- Looking for pthread.h - found
+[1.235s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.292s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.293s] -- Found Threads: TRUE  
+[1.354s] -- Found trajectory_msgs: 4.8.0 (/opt/ros/humble/share/trajectory_msgs/cmake)
+[1.400s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.498s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.499s] -- Added test 'lint_cmake' to check CMake code style
+[1.500s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.503s] -- Added test 'xmllint' to check XML markup files
+[1.504s] -- Configuring done
+[1.507s] -- Generating done
+[1.509s] -- Build files have been written to: /home/eeee784/vince_ros2_ws/src/build/ur_yt_sim

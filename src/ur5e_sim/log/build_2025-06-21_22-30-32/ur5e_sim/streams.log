@@ -1,0 +1,88 @@
+[0.022s] Invoking command in '/home/user/ros2_ws/src/ur5e_sim/build/ur5e_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/ur5e_sim -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/src/ur5e_sim/install/ur5e_sim
+[0.128s] -- The C compiler identification is GNU 11.4.0
+[0.212s] -- The CXX compiler identification is GNU 11.4.0
+[0.221s] -- Detecting C compiler ABI info
+[0.321s] -- Detecting C compiler ABI info - done
+[0.331s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.331s] -- Detecting C compile features
+[0.334s] -- Detecting C compile features - done
+[0.336s] -- Detecting CXX compiler ABI info
+[0.444s] -- Detecting CXX compiler ABI info - done
+[0.455s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.455s] -- Detecting CXX compile features
+[0.456s] -- Detecting CXX compile features - done
+[0.475s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.119s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.399s] -- Found xacro: 2.0.13 (/opt/ros/humble/share/xacro/cmake)
+[1.413s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[1.579s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.608s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.641s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.681s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.737s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.889s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.906s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.125s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.189s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.299s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.343s] -- Looking for pthread.h
+[2.467s] -- Looking for pthread.h - found
+[2.467s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.585s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.586s] -- Found Threads: TRUE  
+[2.677s] -- Found trajectory_msgs: 4.2.3 (/home/simulations/ros2_sims_ws/install/trajectory_msgs/share/trajectory_msgs/cmake)
+[2.733s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.987s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.987s] -- Configured cppcheck include dirs: 
+[2.987s] -- Configured cppcheck exclude dirs and/or files: 
+[2.992s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.002s] -- Added test 'lint_cmake' to check CMake code style
+[3.008s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.030s] -- Added test 'uncrustify' to check C / C++ code style
+[3.030s] -- Configured uncrustify additional arguments: 
+[3.034s] -- Added test 'xmllint' to check XML markup files
+[3.037s] -- Configuring done
+[3.044s] -- Generating done
+[3.047s] -- Build files have been written to: /home/user/ros2_ws/src/ur5e_sim/build/ur5e_sim
+[3.060s] Invoked command in '/home/user/ros2_ws/src/ur5e_sim/build/ur5e_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/ur5e_sim -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/src/ur5e_sim/install/ur5e_sim
+[3.062s] Invoking command in '/home/user/ros2_ws/src/ur5e_sim/build/ur5e_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/src/ur5e_sim/build/ur5e_sim -- -j8 -l8
+[3.134s] Invoked command in '/home/user/ros2_ws/src/ur5e_sim/build/ur5e_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/src/ur5e_sim/build/ur5e_sim -- -j8 -l8
+[3.154s] Invoking command in '/home/user/ros2_ws/src/ur5e_sim/build/ur5e_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/src/ur5e_sim/build/ur5e_sim
+[3.166s] -- Install configuration: ""
+[3.166s] -- Installing: /home/user/ros2_ws/src/ur5e_sim/install/ur5e_sim/share/ur5e_sim/launch
+[3.166s] -- Installing: /home/user/ros2_ws/src/ur5e_sim/install/ur5e_sim/share/ur5e_sim/launch/view_ur5_camera.launch.py
+[3.167s] -- Installing: /home/user/ros2_ws/src/ur5e_sim/install/ur5e_sim/share/ur5e_sim/launch/spawn_ur5_camera.launch.py
+[3.168s] -- Installing: /home/user/ros2_ws/src/ur5e_sim/install/ur5e_sim/share/ur5e_sim/urdf
+[3.168s] -- Installing: /home/user/ros2_ws/src/ur5e_sim/install/ur5e_sim/share/ur5e_sim/urdf/ur5_macro.xacro
+[3.169s] -- Installing: /home/user/ros2_ws/src/ur5e_sim/install/ur5e_sim/share/ur5e_sim/urdf/ur5_camera.urdf.xacro
+[3.171s] -- Installing: /home/user/ros2_ws/src/ur5e_sim/install/ur5e_sim/share/ur5e_sim/urdf/ur5.ros2_control.xacro
+[3.172s] -- Installing: /home/user/ros2_ws/src/ur5e_sim/install/ur5e_sim/share/ur5e_sim/urdf/camera.xacro
+[3.173s] -- Installing: /home/user/ros2_ws/src/ur5e_sim/install/ur5e_sim/share/ur5e_sim/config
+[3.173s] -- Installing: /home/user/ros2_ws/src/ur5e_sim/install/ur5e_sim/share/ur5e_sim/config/ur5_controllers.yaml
+[3.174s] -- Installing: /home/user/ros2_ws/src/ur5e_sim/install/ur5e_sim/share/ur5e_sim/config/initial_positions.yaml
+[3.175s] -- Installing: /home/user/ros2_ws/src/ur5e_sim/install/ur5e_sim/share/ur5e_sim/meshes
+[3.175s] -- Installing: /home/user/ros2_ws/src/ur5e_sim/install/ur5e_sim/share/ur5e_sim/meshes/sensors
+[3.175s] -- Installing: /home/user/ros2_ws/src/ur5e_sim/install/ur5e_sim/share/ur5e_sim/meshes/sensors/camera
+[3.175s] -- Installing: /home/user/ros2_ws/src/ur5e_sim/install/ur5e_sim/share/ur5e_sim/meshes/sensors/camera/kinetic.png
+[3.175s] -- Installing: /home/user/ros2_ws/src/ur5e_sim/install/ur5e_sim/share/ur5e_sim/meshes/sensors/camera/kinetic.dae
+[3.180s] -- Installing: /home/user/ros2_ws/src/ur5e_sim/install/ur5e_sim/share/ur5e_sim/meshes/sensors/camera/kinetic.stl
+[3.182s] -- Installing: /home/user/ros2_ws/src/ur5e_sim/install/ur5e_sim/share/ur5e_sim/worlds
+[3.182s] -- Installing: /home/user/ros2_ws/src/ur5e_sim/install/ur5e_sim/share/ur5e_sim/rviz
+[3.182s] -- Installing: /home/user/ros2_ws/src/ur5e_sim/install/ur5e_sim/share/ur5e_sim/rviz/view_ur5_camera.rviz
+[3.184s] -- Installing: /home/user/ros2_ws/src/ur5e_sim/install/ur5e_sim/share/ur5e_sim/rviz/view2_ur5_camera.rviz
+[3.186s] -- Installing: /home/user/ros2_ws/src/ur5e_sim/install/ur5e_sim/share/ament_index/resource_index/package_run_dependencies/ur5e_sim
+[3.187s] -- Installing: /home/user/ros2_ws/src/ur5e_sim/install/ur5e_sim/share/ament_index/resource_index/parent_prefix_path/ur5e_sim
+[3.187s] -- Installing: /home/user/ros2_ws/src/ur5e_sim/install/ur5e_sim/share/ur5e_sim/environment/ament_prefix_path.sh
+[3.187s] -- Installing: /home/user/ros2_ws/src/ur5e_sim/install/ur5e_sim/share/ur5e_sim/environment/ament_prefix_path.dsv
+[3.187s] -- Installing: /home/user/ros2_ws/src/ur5e_sim/install/ur5e_sim/share/ur5e_sim/environment/path.sh
+[3.187s] -- Installing: /home/user/ros2_ws/src/ur5e_sim/install/ur5e_sim/share/ur5e_sim/environment/path.dsv
+[3.188s] -- Installing: /home/user/ros2_ws/src/ur5e_sim/install/ur5e_sim/share/ur5e_sim/local_setup.bash
+[3.188s] -- Installing: /home/user/ros2_ws/src/ur5e_sim/install/ur5e_sim/share/ur5e_sim/local_setup.sh
+[3.188s] -- Installing: /home/user/ros2_ws/src/ur5e_sim/install/ur5e_sim/share/ur5e_sim/local_setup.zsh
+[3.188s] -- Installing: /home/user/ros2_ws/src/ur5e_sim/install/ur5e_sim/share/ur5e_sim/local_setup.dsv
+[3.188s] -- Installing: /home/user/ros2_ws/src/ur5e_sim/install/ur5e_sim/share/ur5e_sim/package.dsv
+[3.188s] -- Installing: /home/user/ros2_ws/src/ur5e_sim/install/ur5e_sim/share/ament_index/resource_index/packages/ur5e_sim
+[3.189s] -- Installing: /home/user/ros2_ws/src/ur5e_sim/install/ur5e_sim/share/ur5e_sim/cmake/ur5e_simConfig.cmake
+[3.189s] -- Installing: /home/user/ros2_ws/src/ur5e_sim/install/ur5e_sim/share/ur5e_sim/cmake/ur5e_simConfig-version.cmake
+[3.189s] -- Installing: /home/user/ros2_ws/src/ur5e_sim/install/ur5e_sim/share/ur5e_sim/package.xml
+[3.191s] Invoked command in '/home/user/ros2_ws/src/ur5e_sim/build/ur5e_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/src/ur5e_sim/build/ur5e_sim
