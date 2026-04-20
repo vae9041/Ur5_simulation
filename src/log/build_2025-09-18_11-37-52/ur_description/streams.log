@@ -1,6 +1,0 @@
-[0.033s] Invoking command in '/home/eeee784/vince_ros2_ws/src/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eeee784/vince_ros2_ws/install/grasp_detection:/opt/ros/humble /usr/bin/cmake --build /home/eeee784/vince_ros2_ws/src/build/ur_description -- -j8 -l8
-[0.294s] [0mCMake Error: The current CMakeCache.txt directory /home/eeee784/vince_ros2_ws/src/build/ur_description/CMakeCache.txt is different than the directory /home/user/ros2_ws/src/build/ur_description where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
-[0.294s] [0mCMake Error: The source directory "/home/user/ros2_ws/src/Universal_Robots_ROS2_Description" does not exist.
-[0.294s] Specify --help for usage, or press the help button on the CMake GUI.[0m
-[0.294s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
-[0.303s] Invoked command in '/home/eeee784/vince_ros2_ws/src/build/ur_description' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eeee784/vince_ros2_ws/install/grasp_detection:/opt/ros/humble /usr/bin/cmake --build /home/eeee784/vince_ros2_ws/src/build/ur_description -- -j8 -l8

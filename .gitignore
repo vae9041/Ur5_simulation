@@ -11,6 +11,7 @@ __pycache__/
 
 .vscode/
 .idea/
+.repo_backups/
 
 .bash_history
 frames_*.gv
@@ -20,4 +21,12 @@ frames_*.pdf
 *.pt
 *.onnx
 
+src/IFRA_LinkAttacher/
+src/Universal_Robots_ROS2_Description/
+src/Universal_Robots_ROS2_Driver/
+src/Universal_Robots_ROS2_Gazebo_Simulation/
+src/realsense-ros/
+src/ros2_robotiq_gripper/
+src/ur5_camera_gripper_new_moveit_config/
+src/ur5_simulation/
 src/ur_yt_sim/

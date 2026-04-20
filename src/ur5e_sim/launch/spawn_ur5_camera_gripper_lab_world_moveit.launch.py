@@ -20,7 +20,7 @@ def generate_launch_description():
     robotiq_share  = get_package_share_directory("robotiq_description")
     ur_share       = get_package_share_directory("ur_description")
     gazebo_ros_dir = get_package_share_directory("gazebo_ros")
-    world_file = os.path.join(get_package_share_directory('ur5e_sim'), 'worlds', 'pick_place_workplace.world')
+    world_file = os.path.join(get_package_share_directory('ur5e_sim'), 'worlds', 'mabllab_grasp_workspace_clean.world')
 
     # --- ENV Gazebo ---
     ld.add_action(SetEnvironmentVariable(
@@ -117,6 +117,18 @@ def generate_launch_description():
     grip = Node(package="controller_manager", executable="spawner",
                 arguments=["gripper_position_controller","--controller-manager","/controller_manager"], output="screen")
 
+    joint_states_filter = Node(
+        package="frame_transform",
+        executable="joint_states_filter",
+        output="screen",
+        parameters=[
+            {"input_topic": "/joint_states"},
+            {"output_topic": "/joint_states_moveit"},
+            {"drop_suffix": "_mimic"},
+            {"use_sim_time": True},
+        ],
+    )
+
     ld.add_action(RegisterEventHandler(
         OnProcessStart(target_action=spawn, on_start=[
             TimerAction(period=2.0, actions=[jsb]),
@@ -148,6 +160,7 @@ def generate_launch_description():
         executable="move_group",
         output="screen",
         parameters=[mg_params],
+        remappings=[("/joint_states", "/joint_states_moveit")],
         arguments=["--ros-args","--log-level","info"],
         condition=IfCondition(LaunchConfiguration("with_octomap")),   # << NEW
     )
@@ -160,12 +173,14 @@ def generate_launch_description():
         executable="move_group",
         output="screen",
         parameters=[mg_params_no_sensors],
+        remappings=[("/joint_states", "/joint_states_moveit")],
         arguments=["--ros-args","--log-level","info"],
         condition=UnlessCondition(LaunchConfiguration("with_octomap")),
     )
 
     
 
+    ld.add_action(joint_states_filter)
     ld.add_action(move_group_with_octomap)
     ld.add_action(move_group_no_octomap)
 

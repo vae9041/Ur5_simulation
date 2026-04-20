@@ -85,11 +85,6 @@
     <passive_joint name="robotiq_85_right_inner_knuckle_joint"/>
     <passive_joint name="robotiq_85_right_knuckle_joint"/>
     <passive_joint name="robotiq_85_right_finger_tip_joint"/>
-    <passive_joint name="robotiq_85_left_inner_knuckle_joint_mimic"/>
-    <passive_joint name="robotiq_85_right_inner_knuckle_joint_mimic"/>
-    <passive_joint name="robotiq_85_right_knuckle_joint_mimic"/>
-    <passive_joint name="robotiq_85_left_finger_tip_joint_mimic"/>
-    <passive_joint name="robotiq_85_right_finger_tip_joint_mimic"/>
 
     <!--DISABLE COLLISIONS: By default it is assumed that any link of the robot could potentially come into collision with any other link in the robot. This tag disables collision checking between a specified pair of links. -->
     <disable_collisions link1="base_link_inertia" link2="camera_link" reason="Adjacent"/>

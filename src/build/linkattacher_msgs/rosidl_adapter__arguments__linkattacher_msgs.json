@@ -1,7 +1,0 @@
-{
-  "package_name": "linkattacher_msgs",
-  "non_idl_tuples": [
-    "/home/eeee784/vince_ros2_ws/src/IFRA_LinkAttacher/linkattacher_msgs:srv/AttachLink.srv",
-    "/home/eeee784/vince_ros2_ws/src/IFRA_LinkAttacher/linkattacher_msgs:srv/DetachLink.srv"
-  ]
-}

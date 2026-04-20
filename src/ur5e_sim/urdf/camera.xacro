@@ -17,14 +17,14 @@
         <visual>
             <geometry>
                 <!-- <box size="0.01 0.03 0.03" /> -->
-                <mesh filename="package://ur5e_sim/meshes/sensors/camera/kinetic.stl"/>
+                <mesh filename="file://${URYT}/meshes/sensors/camera/kinetic.stl"/>
      
             </geometry>
             <material name="red"/>
         </visual>
         <collision>
             <geometry>
-                <mesh filename="package://ur5e_sim/meshes/sensors/camera/kinetic.dae"/>
+                <mesh filename="file://${URYT}/meshes/sensors/camera/kinetic.dae"/>
 
             </geometry>
         </collision>
@@ -34,7 +34,7 @@
     <joint name="camera_joint" type="fixed">
         <parent link="base_link"/>
         <child link="camera_link"/>
-        <origin xyz="0.5 0 1.2" rpy="0 1.57 0" />
+        <origin xyz="0.305 0.350 0.952" rpy="0 1.57 0" />
     </joint>
 
     <link name="camera_optical_link"></link>

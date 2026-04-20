@@ -4,9 +4,11 @@
    <!-- robot name parameter -->
    <xacro:arg name="name" default="ur"/>
    <!-- import main macro -->
+   <xacro:property name="URYT" value="$(find ur5e_sim)"/>
+   <xacro:property name="ROBI" value="$(find robotiq_description)"/>
    <xacro:include filename="$(find ur5e_sim)/urdf/camera.xacro"/>
    <xacro:include filename="$(find ur5e_sim)/urdf/ur5_macro.xacro"/>
-
+  
    <!-- possible 'ur_type' values: ur3, ur3e, ur5, ur5e, ur7e, ur10, ur10e, ur12e, ur16e, ur15, ur20, ur30 -->
    <!-- the default value should raise an error in case this was called without defining the type -->
    <xacro:arg name="ur_type" default="ur5e"/>
@@ -125,7 +127,7 @@
      script_sender_port="$(arg script_sender_port)"
      trajectory_port="$(arg trajectory_port)"
      >
-     <origin xyz="0 0 0.8" rpy="0 0 0" />          <!-- position robot in the world -->
+     <origin xyz="0 0 0.73" rpy="0 0 0" />          <!-- position robot in the world -->
    </xacro:ur_robot>
 
    <xacro:if value="$(arg sim_gazebo)">
