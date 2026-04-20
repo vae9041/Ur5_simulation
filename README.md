@@ -138,6 +138,12 @@ ros2 run ur5_ik lab_sim_attachlink
 - The transformation node converts the detected target into the robot base frame for planning.
 - The pick node uses MoveIt 2 together with Gazebo link attachment for simulated grasp completion.
 
+## Demo Video
+
+A montage of the grasping execution is available here:
+
+[Watch the grasping execution montage](https://drive.google.com/file/d/1xQ_WxqXcIqmu-JwPXTSn9yqCD7iW_jOo/view?usp=sharing)
+
 ## Intended Use
 
 This repository is prepared for academic dissemination and accompanies a conference-paper workflow demonstrating end-to-end robotic grasping with RGB-D perception, coordinate transformation, and motion execution in simulation.
